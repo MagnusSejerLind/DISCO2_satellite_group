@@ -9,50 +9,7 @@
 %2. Eccentricity (e)
 %3. Inclination (inc)
 %4. Right Ascension of Ascending Node (RAAN)
-%5. Argument of Perigee (w)
-%6. Initial Mean Anomaly (M0)
-% after which it visually displays the orbit of the diagram in 3D space.
-% The Blue Sphere denotes the Earth
-% The Green Sphere denotes the initial position of the satellite
-% The Red Spheres denote the positions of the satellites at fixed time
-% intervals
-% The dotted green line denotes the initial velocity vector of the
-% satellite
-% The three orthogonal black lines denote the 3 positive ECI axes
-% 
-% At the end, the altitude ranges are displayed, as well as the orbit type
-% - LEO or MEO
-% The simulation only takes into account the the influence of the Earth
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%CUSTOMIZABLE STATE VECTORS%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%SAMPLE VALUES:
-%MOLNIYA ORBIT
-%r= [0 -7000 -14000];
-%v= [2 1 -0.5];
-%vmag= 6175;
-%runspeed= 300;
-%GEOSTATIONARY ORBIT
-%r= [42241 0 0]; 
-%v= [0 1 0];
-%vmag= 3072;
-%runspeed=1000;
-% POLAR ORBIT COVERING ALL LONGITUDES IN ONE REV
-%r= [42241 0 0];
-%v= [0 0 1];
-%vmag=3072;
-%runspeed=1000;
-%LOW ECCENTRICITY LOW EARTH ORBIT
-%r=[7000 0 0];
-%v=[0 1 1];
-%vmag=7500;
-%runspeed=100;
-%NORMAL ORBIT
-%r= [7000 0 0]; 
-%v= [0 1 0.5];
-%vmag=7500;
+%5. Argument i
 %runspeed=100;
 
 %%%%%%%%%%%%%%%%%
